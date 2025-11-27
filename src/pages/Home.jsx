@@ -57,11 +57,11 @@ export default function Home() {
               Grade R–7 primary school with an adjacent high school on the same campus.
             </p>
           </div>
-          <div className="rounded-2xl border border-white/20 h-56 md:h-72 overflow-hidden">
+          <div className="rounded-2xl border border-white/20 h-80 md:h-96 overflow-hidden shadow-2xl">
             <img
               src={heroImg}
               alt="Waterkloof Hills School Campus"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
         </div>
@@ -191,32 +191,32 @@ export default function Home() {
               {
                 title: 'Game Days',
                 caption:
-                  'Learners enjoy energetic game days that build fitness, fun and teamwork. Lorem ipsum dolor sit amet.',
-                href: '/news-events#galleries',
+                  'Learners enjoy energetic game days that build fitness, fun and teamwork.',
+                href: '/news-events',
                 linkLabel: 'View gallery',
                 images: [games1, games2, games3],
               },
               {
                 title: 'Chess Club',
                 caption:
-                  'Focused minds gather at our chess boards to practise strategy and concentration. Lorem ipsum dolor sit amet.',
-                href: '/news-events#galleries',
+                  'Focused minds gather at our chess boards to practise strategy and concentration.',
+                href: '/news-events',
                 linkLabel: 'View gallery',
                 images: [chess1, chess2, chess3],
               },
               {
                 title: 'Our Gardens',
                 caption:
-                  'Calm, green spaces give learners room to breathe, reflect and connect with nature. Lorem ipsum dolor sit amet.',
-                href: '/news-events#galleries',
+                  'Calm, green spaces give learners room to breathe, reflect and connect with nature.',
+                href: '/news-events',
                 linkLabel: 'View gallery',
                 images: [farm1, farm2, farm3, farm4],
               },
               {
                 title: 'Staff in Action',
                 caption:
-                  'Dedicated teachers and support staff work together to keep the school running smoothly. Lorem ipsum dolor sit amet.',
-                href: '/news-events#galleries',
+                  'Dedicated teachers and support staff work together to keep the school running smoothly.',
+                href: '/news-events',
                 linkLabel: 'View gallery',
                 images: [staff1, staff2, staff3],
               },

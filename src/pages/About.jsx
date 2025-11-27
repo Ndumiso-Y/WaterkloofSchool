@@ -26,12 +26,12 @@ export default function About() {
             title="Principal's Message"
             subtitle="From Principal Delia Rossi"
           />
-          <div className="grid gap-8 md:grid-cols-[300px,1fr] items-start">
-            <div className="rounded-xl overflow-hidden shadow-md">
+          <div className="grid gap-8 md:grid-cols-[400px,1fr] items-start">
+            <div className="rounded-xl overflow-hidden shadow-xl">
               <img
                 src={principalImg}
                 alt="Principal Delia Rossi"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="space-y-4 text-sm md:text-base text-slate-700">

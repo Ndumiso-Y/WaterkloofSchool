@@ -30,13 +30,13 @@ export default function Navbar() {
           <img
             src={logoImg}
             alt="Waterkloof Hills School Logo"
-            className="h-10 w-10 rounded-full object-cover"
+            className="h-14 w-14 md:h-16 md:w-16 rounded-full object-cover shadow-md"
           />
           <div className="leading-tight">
-            <div className="font-semibold text-sm md:text-base text-waterkloof-dark">
+            <div className="font-semibold text-base md:text-lg text-waterkloof-dark">
               Waterkloof Hills
             </div>
-            <div className="text-[11px] md:text-xs text-slate-600">
+            <div className="text-xs md:text-sm text-slate-600">
               Education Par Excellence
             </div>
           </div>
