@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-// Use relative base for maximum compatibility
+// GitHub Pages requires /WaterkloofSchool/ for project sites
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/WaterkloofSchool/',
 })
