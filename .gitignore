@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Videos (too large for Git - optimize and host separately)
+# Videos (too large for Git - host on YouTube or separate server)
 *.mp4
 *.mov
 *.avi

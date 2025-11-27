@@ -7,6 +7,8 @@ import VideoThumbnail from '../components/VideoThumbnail.jsx'
 import { Link } from 'react-router-dom'
 import heroImg from '../assets/WaterkloofHero.jpg'
 import metroImg from '../assets/PrincipalMetroDeliaRossi.jpg'
+// Video imports - Note: videos excluded from git (use YouTube or separate hosting)
+// import metroVideo from '../assets/metro-interview-optimized.mp4'
 import games1 from '../assets/WaterkloofGames1.jpg'
 import games2 from '../assets/WaterkloofGames2.jpg'
 import games3 from '../assets/WaterkloofGames3.jpg'
@@ -175,7 +177,7 @@ export default function Home() {
             title="Metro FM Interview with Principal Rossi"
             description="A radio conversation about the school's inception, growth and commitment to excellence."
             thumbnailImage={metroImg}
-            videoSrc="/src/assets/video-We're now joined by Principal Rossi of Waterkloof Hills Primary School, who has been an incredib.mp4"
+            // videoSrc - Add when video is hosted on YouTube or server
           />
         </div>
       </section>

@@ -11,7 +11,11 @@
       "Bash(git remote add:*)",
       "Bash(git push:*)",
       "Bash(npm install)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(powershell:*)",
+      "Bash(for file in video-We*.mp4)",
+      "Bash(do ffmpeg -i \"$file\" -vcodec libx264 -crf 28 -preset veryfast -vf \"scale=1280:-2\" -acodec aac -b:a 96k metro-interview-optimized.mp4 -y)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []
