@@ -1,0 +1,26 @@
+{
+  "name": "waterkloof-hills-school",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://Ndumiso-Y.github.io/WaterkloofSchool",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "autoprefixer": "^10.4.18",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^6.0.5"
+  }
+}

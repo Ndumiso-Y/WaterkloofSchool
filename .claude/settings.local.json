@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if [ ! -d \"F:\\Digital Agency\\waterkloof\\Website\\waterkloof-hills-school\\public\" ])",
+      "Bash(then mkdir \"F:\\Digital Agency\\waterkloof\\Website\\waterkloof-hills-school\\public\")",
+      "Bash(fi)",
+      "Bash(ffmpeg:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
