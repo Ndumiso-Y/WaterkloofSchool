@@ -173,8 +173,9 @@ export default function Home() {
           </div>
           <VideoThumbnail
             title="Metro FM Interview with Principal Rossi"
-            description="A radio conversation about the school's inception, growth and commitment to excellence. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            description="A radio conversation about the school's inception, growth and commitment to excellence."
             thumbnailImage={metroImg}
+            videoSrc="/src/assets/video-We're now joined by Principal Rossi of Waterkloof Hills Primary School, who has been an incredib.mp4"
           />
         </div>
       </section>
